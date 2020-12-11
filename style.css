@@ -43,6 +43,7 @@ p {
     position: relative;
     top: 0;
     vertical-align: middle;
+    transition: 0.3s;
   }
   .navbar a:hover {
   	color: rgb(68,90,102);
