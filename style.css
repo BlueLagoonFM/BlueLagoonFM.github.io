@@ -44,9 +44,9 @@ p {
     top: 0;
     vertical-align: middle;
   }
-  .navigation-bar a:hover {
-    color: #e74c3c;
-  }
+  .navbar a:hover {
+  	color: rgb(68,90,102);
+	}
   
   hr {
     
