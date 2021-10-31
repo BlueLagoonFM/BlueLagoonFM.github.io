@@ -1,185 +1,159 @@
-<html>
-<head>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/gsap.min.js" integrity="sha512-1dalHDkG9EtcOmCnoCjiwQ/HEB5SDNqw8d4G2MKoNwjiwMNeBAkudsBCmSlMnXdsH8Bm0mOd3tl/6nL5y0bMaQ==" crossorigin="anonymous"></script>
-
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
-
-    <script src="scripts/nav.js"></script>
-    <script src="scripts/js_script.js"></script>
-    <link rel="stylesheet" href="css/style.css">
-</head>
-
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="index.html"><img src="imgs/UW_Box.png" alt="Logo" width="70" height="70" style="vertical-align:bottom"></a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-    <div class="navbar-nav">
-      <a class="nav-item nav-link" href="index.html">Home</a>
-      <a class="nav-item nav-link" href="shop.html">Shop</a>
-      <a class="nav-item nav-link" href="about_us.html">About us</a>
-      <a class="nav-item nav-link" href="contact_us.html">Contact us</a>
-    </div>
-  </div>
-</nav>
-
-
-<body>
-  <main class="main-content">
-    <section class="slideshow">
-      <div class="slideshow-inner">
-        <div class="slides">
-          <div class="slide is-active ">
-            <div class="slide-content">
-              <div class="caption">
-                <div class="title">Unique Walls</div>
-                <div class="text">
-                  <p>We have a range of novelty boxes and other services</p>
-                </div> 
-                <a href="shop.html" class="btn">
-                  <span class="btn-inner">Shop Now</span>
-                </a>
-              </div>
-            </div>
-            <div class="image-container"> 
-              <img src="imgs/cara1 1400.png" alt="" class="image" />
-            </div>
-          </div>
-          <div class="slide">
-            <div class="slide-content">
-              <div class="caption">
-                <div class="title">Design to your spec</div>
-                <div class="text">
-                  <p>We are able to create the box you want</p>
-                </div> 
-                <a href="https://www.facebook.com/messages/t/261561520572419" class="btn">
-                  <span class="btn-inner">Message Us</span>
-                </a>
-              </div>
-            </div>
-            <div class="image-container">
-              <img src="imgs/cara2 1400.png" alt="" class="image" />
-            </div>
-          </div>
-          <div class="slide">
-            <div class="slide-content">
-              <div class="caption">
-                <div class="title">Our Story</div>
-                <div class="text">
-                  <p>Learn our story</p>
-                </div> 
-                <a href="about_us.html" class="btn">
-                  <span class="btn-inner">Learn More</span>
-                </a>
-              </div>
-            </div>
-            <div class="image-container">
-              <img src="imgs/cara3 1400.png" alt="" class="image" />
-            </div>
-          </div>
-          <div class="slide">
-            <div class="slide-content">
-              <div class="caption">
-                <div class="title">Contact Us</div>
-                <div class="text">
-                  <p>How to contact us</p>
-                </div> 
-                <a href="contact_us.html" class="btn">
-                  <span class="btn-inner">Learn More</span>
-                </a>
-              </div>
-            </div>
-            <div class="image-container"> 
-              <img src="imgs/cara4 1400.png" alt="" class="image" />
-            </div>
-          </div>
-        </div>
-        <div class="pagination">
-          <div class="item is-active"> 
-            <span class="icon">1</span>
-          </div>
-          <div class="item">
-            <span class="icon">2</span>
-          </div>
-          <div class="item">
-            <span class="icon">3</span>
-          </div>
-          <div class="item">
-            <span class="icon">4</span>
-          </div>
-        </div>
-        <div class="arrows">
-          <div class="arrow prev">
-            <span class="svg svg-arrow-left">
-              <svg version="1.1" id="svg4-Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="14px" height="26px" viewBox="0 0 14 26" enable-background="new 0 0 14 26" xml:space="preserve"> <path d="M13,26c-0.256,0-0.512-0.098-0.707-0.293l-12-12c-0.391-0.391-0.391-1.023,0-1.414l12-12c0.391-0.391,1.023-0.391,1.414,0s0.391,1.023,0,1.414L2.414,13l11.293,11.293c0.391,0.391,0.391,1.023,0,1.414C13.512,25.902,13.256,26,13,26z"/> </svg>
-              <span class="alt sr-only"></span>
-            </span>
-          </div>
-          <div class="arrow next">
-            <span class="svg svg-arrow-right">
-              <svg version="1.1" id="svg5-Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="14px" height="26px" viewBox="0 0 14 26" enable-background="new 0 0 14 26" xml:space="preserve"> <path d="M1,0c0.256,0,0.512,0.098,0.707,0.293l12,12c0.391,0.391,0.391,1.023,0,1.414l-12,12c-0.391,0.391-1.023,0.391-1.414,0s-0.391-1.023,0-1.414L11.586,13L0.293,1.707c-0.391-0.391-0.391-1.023,0-1.414C0.488,0.098,0.744,0,1,0z"/> </svg>
-              <span class="alt sr-only"></span>
-            </span>
-          </div>
-        </div>
-      </div> 
-    </section>
-  </main>  
-  <div>
-    
-    <div class="container">
-      <div class="row">
-          <div class="col-md-4 col-sm-6">
-              <div class="product-grid2">
-                  <div class="product-image2"> <a href="listing_keyring.html"> <img class="pic-1"  src="imgs/listings/product grid/keyring_1.png"> <img class="pic-2" src="imgs/listings/product grid/keyring_2.png"> </a>
-                  </div>
-                  <div class="product-content">
-                      <h3 class="title"><a href="listing_keyring.html">Sherwood FC Personalised Shirt Keyring</a></h3> <span class="price">£3.50</span>
-                  </div>
-              </div>
-          </div>
-          <div class="col-md-4 col-sm-6">
-            <div class="product-grid2">
-                <div class="product-image2"> <a href="listing_vans.html"> <img class="pic-1" src="imgs/listings/product grid/vans_1.png"> <img class="pic-2" src="imgs/listings/product grid/vans_2.png"> </a>
+<!DOCTYPE html>
+<html lang="en-GB">
+    <link rel="stylesheet" href="style.css">
+    <body>
+        <title>Blend Barbers</title>
+        <div class="bg-img">
+            <div class="container">
+              <div class="navbar">
+                <nav>
+                  <a href="index.html">Home</a>
+                  <a href="#about">About</a>
+                  <a href="index.html"><img src="images/LogoWhite.png" alt="Blend Barbers Logo" width="70"></a>
+                  <a href="#open">Hours</a>
+                  <a href="#contact">Contact</a>
+                </nav>
+                <div id="line"><hr/></div>
+                <p>&nbsp;</p>
+                <div class="slide-top">
+                    <div class="img">
+                            <img src="images/logoOverlay.png" alt="Blend Barbers">
+                    </div>
                 </div>
-                <div class="product-content">
-                    <h3 class="title"><a href="listing_vans.html">Vans inspired Storage Box</a></h3> <span class="price">£269</span>
+        
+                <div class="wrapper">
+                    <a href="https://blendbarbers.co.uk/book" class="FirstButton">BOOK NOW</a>
                 </div>
+
+                </div>
+                <div class="curvesImg">
+                    <svg xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" viewBox="0 0 1500 150" fill="rgba(255, 255, 255, 255)">
+                    <path d="M277.5 76.8C498.4 71.003 728.353 52.122 750 0H0v150s34.5-66.844 277.5-73.2zM750 0c21.647 52.122 251.6 71.003 472.5 76.8 243 6.366 277.5 73.2 277.5 73.2V0H750z" />
+                    </svg>
+              </div>
             </div>
         </div>
-          <div class="col-md-4 col-sm-6">
-              <div class="product-grid2">
-                  <div class="product-image2"> <a href="listing_mug.html"> <img class="pic-1" src="imgs/listings/product grid/mug_1.png"> <img class="pic-2" src="imgs/listings/product grid/mug_2.png"> </a>
+        <div class="about" id="about">
+            <p>&nbsp;</p>
+            <h3 class="georgia" style="text-align: center; margin-top:5%;" class="heading1">About Us</h3>
+            <hr style="height:2px;border-width:0;color:black;background-color:black;width: 6%;">
+            <h6 style="text-align: center; margin-top: 2%" class="text1">Blend Barbers is a stylish and modern barbershop with stores in Stapleford and Ilkeston. View the Blend Barbers website for opening times, prices, and directions. We are now taking
+              bookings for
+              reopening after
+              lockdown on the 2nd December. Walk-ins are still available if we are not fully booked. Please check below for our Christmas opening hours.</h6>
+            <p class="smalltext">Blend Barbers Team</p>
+          </div>
+        </div>
+        <div class="wrapper">
+            <a href="https://blendbarbers.co.uk/book" class="SecondButton">BOOK NOW</a>
+        </div>
+        <h1 style="color: white;font-size: 80px;">&nbsp; </h1>
+        <div class="opening" id="open">
+            <a><img src="https://i.ibb.co/47f6LqS/Shop-Front.jpg" alt="Shop-Front" width="70%"></a>
+            <h3>Opening Times</h3>
+            <div class="openline"></div>
+            <h5 style="margin-top: 50px;"><strong>MON&nbsp; &nbsp;</strong>–&nbsp; 9:00 AM – 6:00 PM</h5>
+            <h5 ><strong>TUE&nbsp; &nbsp; &nbsp; </strong>–&nbsp; 9:00 AM – 6:00 PM</h5>
+            <h5><strong>THU&nbsp; &nbsp; &nbsp;</strong>–&nbsp; 10:00 AM – 7:00 PM</h5>
+            <h5><strong>FRI&nbsp; &nbsp; &nbsp; &nbsp; </strong>–&nbsp; 9:00 AM – 6:00 PM</h5>
+            <h5><strong>SAT&nbsp; &nbsp; &nbsp; </strong>–&nbsp; 7:30 AM – 3:00 PM*</h5>
+            <h5><strong>SUN&nbsp; &nbsp; &nbsp;</strong>–&nbsp; CLOSED</h5>
+            <p>&nbsp;</p>
+            <p>*Bank Holiday Weekends – Close at 2:00PM</p>
+        </div>
+        <h2>&nbsp;</h2>
+        <div class="StapleStaff">
+            <h3 style="text-align: center;font-size: 36px;">Stapleford Staff</h3>
+            <div class="staffline"></div>
+            <p>&nbsp;</p>
+            <div class="row">
+                <div class="column">
+                  <img src="images/andrewlake.jpg" alt="Andrew Lake" style="width:100%">
+                  <h3 style="text-align: justify;font-size: 27px;margin-top: 10px;margin-left: 10px;">Andrew Icke</h3>
+                </div>
+                <div class="column">
+                  <img src="images/leonball.jpg" alt="Leon Ball" style="width:100%">
+                  <h3 style="text-align: justify;font-size: 27px;margin-top: 10px;margin-left: 10px;">Leon Ball</h3>
+                </div>
+                <div class="column">
+                  <img src="images/juliamellor.jpg" alt="Julia Mellor" style="width:100%">
+                  <h3 style="text-align: justify;font-size: 27px;margin-top: 10px;margin-left: 10px;">Julia Mellor</h3>
+                </div>
+                <div class="column">
+                    <img src="images/shannontomlinson.jpg" alt="Shannon Tomlinson" style="width:100%">
+                    <h3 style="text-align: justify;font-size: 27px;margin-top: 10px;margin-left: 30px;">Shannon Tomlinson</h3>
                   </div>
-                  <div class="product-content">
-                      <h3 class="title"><a href="listing_mug.html">Sherwood FC - Personalised No.1 Fan Travel Mug</a></h3> <span class="price">£8.50</span>
+                  <div class="column">
+                    <img src="images/sebriley.jpg" alt="Seb Riley" style="width:100%">
+                    <h3 style="text-align: justify;font-size: 27px;margin-top: 10px;margin-left: 30px;">Seb Riley</h3>
                   </div>
               </div>
-          </div>
-          
-      </div>
-  </div>
-  </div>
-  </div>
-</div>
-<h1 style="font-size: 100px;color: white;">.</h1>
-<div class="footer">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" />
-  <ul class="social-network social-circle">
-    <li><a class="icoTwitter" href="https://twitter.com/JayUniquewalls" title="Twitter"><i class="fa fa-twitter"></i></a></li>
-    <li><a class="icoFacebook" href="https://www.facebook.com/uniquewallsuk" title="Facebook"><i class="fa fa-facebook"></i></a></li>
-    <li><a class="icoInstagram" href="https://www.instagram.com/unique_walls/" title="Instagram"><i class="fa fa-instagram"></i></a></li>
-  </ul>
-  </div>
-</body>
-  </div>
+            </div>
+        </div>
+        <h1 style="font-size: 25px;">&nbsp;</h1>
+        <div class="contact" id=contact>
+            <h1 style="font-size: 38px;">&nbsp;</h1>
+            <h5>Address</h5>
+            <h1 style="line-height: 2px;">&nbsp;</h1>
+            <p>154 Derby Rd,</p>
+            <p>Stapleford, Nottingham</p>
+            <p>NG9 7AY</p>
+            <h1 style="font-size: 10px;">&nbsp;</h1>
+            <h5>Contact Us</h5>
+            <a href="https://blendbarbers.co.uk/book" class="FirstButton">FACEBOOK</a>
+            <h1 style="font-size: 20px;">&nbsp;</h1>
+        </div>
+        <h1 style="font-size: 25px;">&nbsp;</h1>
+        <div class="ilkestonstaff">
+            <h3 style="text-align: center;font-size: 36px;">Ilkeston Staff</h3>
+            <div class="staffline"></div>
+            <p>&nbsp;</p>
+            <div class="row">
+                <div class="column">
+                  <img src="images/bengilbert.jpg" alt="Ben Gilbert" style="width:100%">
+                  <h3 style="text-align: justify;font-size: 27px;margin-top: 10px;margin-left: 10px;">Ben Gilbert</h3>
+                </div>
+                <div class="column">
+                  <img src="images/jessgray.jpg" alt="Jess Gray" style="width:100%">
+                  <h3 style="text-align: justify;font-size: 27px;margin-top: 10px;margin-left: 10px;">Jess Gray</h3>
+                </div>
+                <div class="column">
+                  <img src="images/kylegunn.jpg" alt="Kyle Gunn" style="width:100%">
+                  <h3 style="text-align: justify;font-size: 27px;margin-top: 10px;margin-left: 10px;">Kyle Gunn</h3>
+                </div>
+                <div class="column">
+                    <img src="images/demidrew.jpg" alt="Demi Drew" style="width:100%">
+                    <h3 style="text-align: justify;font-size: 27px;margin-top: 10px;margin-left: 30px;">Demi Drew</h3>
+                  </div>
+                  <div class="column">
+                    <img src="images/johnnyslack.jpg" alt="Johnny Slack" style="width:100%">
+                    <h3 style="text-align: justify;font-size: 27px;margin-top: 10px;margin-left: 10px;">Johnny Slack</h3>
+                  </div>
+              </div>
+            </div>
+        </div>
+        <h1 style="font-size: 25px;">&nbsp;</h1>
+        <div class="contact">
+            <h1 style="font-size: 38px;">&nbsp;</h1>
+            <h5>Address</h5>
+            <h1 style="line-height: 2px;">&nbsp;</h1>
+            <p>154 Derby Rd,</p>
+            <p>Stapleford, Nottingham</p>
+            <p>NG9 7AY</p>
+            <h1 style="font-size: 10px;">&nbsp;</h1>
+            <h5>Contact Us</h5>
+            <a href="https://blendbarbers.co.uk/book" class="FirstButton">FACEBOOK</a>
+            <h1 style="font-size: 20px;">&nbsp;</h1>
+        </div>
+        <h4 style="font-size: 5px;">&nbsp;</h4>
+        <hr class="solid">
+        <h2>&nbsp;</h2>
+        <div class="end">
+            <h4>Blend Barbers</h4>
+            <h4 style="font-size: 20px;"><strong>Recreated by Tae</strong></h4>
+        </div>
 
-</body>
+
+    </body>
+
 </html>
